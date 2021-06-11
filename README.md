@@ -1,5 +1,5 @@
 # tidepool-scraper
-Find when I can go to tide pools at low tide and during daylight hours
+Scrape https://www.tide-forecast.com/ and find when low tide is within daylight hours and return with the height of that tide.
 
 ## Installation Instructions
 1. Python3 (with pip) needs to be installed (python can be found here: https://www.python.org/downloads/). In writing this project I used python version 3.9.5.
