@@ -90,7 +90,7 @@ def main():
             print('Beautiful soup failed to process tide data for city: {0}'.format(location['city']))
             continue
 
-        # pull tide times and heights out of tide table and store in times list and heights lists respectively
+        # pull tide times and heights out of tide table and store in times and heights lists respectively
         tide_table = tide_soup.find("table", {"class": "tide-day-tides"})
         for table_row in tide_table.find_all('tr'):
             if table_row.find('td', text='Low Tide'):
