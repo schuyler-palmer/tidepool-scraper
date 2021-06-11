@@ -123,10 +123,8 @@ def main():
                 sunset = re.findall(r'<td>(.*)<span', str(options[0]))
                 times[3] = sunset[0].strip()
 
-        print('times', times)
         # make times in 24 hour clock for easier comparison
         for x in range(len(times)):
-            print('times at index', x, ': ', times[x])
             time_m_list = times[x].split(' ')
             time_list = time_m_list[0].split(':')
             hour = time_list[0]
