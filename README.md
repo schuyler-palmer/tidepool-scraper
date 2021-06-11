@@ -8,4 +8,4 @@ Find when I can go to tide pools at low tide and during daylight hours
 
 ## Running this Script
 1. Clone/copy code
-2. Run on CLI `python3 find-tide-pools.py`
+2. Run on CLI (`python3 find-tide-pools.py`)
